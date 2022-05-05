@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="a" placeholder="Nhập a "><br><br>
+<input id="b" placeholder="Nhập b"><br><br>
+<input id="c" placeholder="Nhập c"><br><br>
+<button onclick="comp()">xem</button>
+</body>
+</html>
+
+<script>
+
+    function comp() {
+        let a = parseInt(document.getElementById("a").value);
+        let b = parseInt(document.getElementById("b").value);
+        let c = parseInt(document.getElementById("c").value);
+        if (a > b) {
+            if (a > c){
+                alert("a Max");
+            }
+            else {
+                alert("c Max");
+            }
+        }
+        else {
+            if (b > c){
+                alert("b Max");
+            }
+            else {
+                alert("c Max");
+            }
+        }
+    }
+</script>

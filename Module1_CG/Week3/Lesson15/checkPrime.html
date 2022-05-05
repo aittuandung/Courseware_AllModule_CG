@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let number = parseInt(prompt("Enter number to check: "));
+    function checkNumb(numb){
+        let check = true;
+        for (let i = 2; i < Math.sqrt(numb); i++) {
+            if (numb%i==0){
+                check = false;
+                break;
+            }
+        }
+        if (check){
+            console.log("Number is Prime");
+        }
+        else {
+            console.log("Not Prime");
+        }
+    }
+    checkNumb(number)
+</script>

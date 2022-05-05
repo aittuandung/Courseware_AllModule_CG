@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+  let inputname = prompt("Enter Usernam: ");
+  let inputpass = prompt("Enter Password: ");
+  if (inputname == "Admin"){
+      if (inputpass == "TheMaster") {
+          alert("Welcome");
+      }else if (inputpass == null) {
+          alert("Canceled");
+      } else {
+          alert("Wrong Password!!");
+      }
+  }else if (inputname == null){
+      alert("Canceld")
+  }else {
+      alert("I don't Know!!")
+  }
+
+</script>

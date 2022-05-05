@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let str1 = "van";
+    let str2 = "nguyen van huy";
+
+    function checkStr(string1, string2) {
+        let newStr1 = string1.split('');
+        let newStr2 = string2.split('');
+        let check = false
+
+        for (let i = 0; i < newStr2.length; i++) {
+            for (let j = 0; j < newStr1.length; j++) {
+                if (newStr1[j] === newStr2[i]) {
+                    for (let k = 0; k < newStr1.length; k++) {
+                        if (newStr1[j++] === newStr2[k++]) {
+                            check = true;
+                        }
+                    }
+                }
+            }
+        }
+        if (check === true) {
+            alert("Correct")
+        } else {
+            alert("Incorrect")
+        }
+    }
+
+    checkStr(str1, str2)
+</script>

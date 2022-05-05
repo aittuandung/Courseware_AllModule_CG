@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head window.captureEvents (Event.CLICK); >
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let array =[2,3,5,4,1]
+    function miniMaxSum(arr) {
+        // Write your code here
+        let miniSum = 0;
+        let maxSum = 0;
+        arr.sort(function (a,b){return a - b});
+
+        for(let i=0;i<arr.length-1;i++){
+            miniSum += arr[i];
+        }
+        for(let i=arr[0];i<arr.length;i++){
+            maxSum += arr[i];
+        }
+        return [miniSum, maxSum]
+    }
+
+    console.log(miniMaxSum(array))
+</script>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input id="x" placeholder="Nhập cạnh a">
+    <input id="y" placeholder="Nhập cạnh b">
+    <button onclick="show()">Show F</button>
+</body>
+</html>
+
+<script>
+    function show(){
+        let a = parseInt(document.getElementById("x").value);   
+        let b = parseInt(document.getElementById("y").value);
+        alert("S là " + (a*b)/2);
+    }
+</script>

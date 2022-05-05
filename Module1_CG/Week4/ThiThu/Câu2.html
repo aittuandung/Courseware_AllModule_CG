@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let arr = [1,-5,2,6,7,9];
+    let index = 2;
+    function tryRemoveFromArray(array,a){
+        if (a<=array.length){
+
+            for (let i = 0; i < array.length; i++) {
+                if (a==i){
+                    for (let j = i; j < array.length; j++) {
+                        array[j]=array[j+1]
+                    }
+                    array.length = array.length-1
+                }
+            }
+            alert(array);
+        }
+        else {
+            alert(array);
+        }
+    }
+
+    tryRemoveFromArray(arr,index);
+
+</script>

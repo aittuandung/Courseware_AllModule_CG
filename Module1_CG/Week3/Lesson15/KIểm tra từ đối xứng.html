@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let input = prompt("Nhập vào 1 chuỗi");
+    let check = true;
+
+
+    function isPalindrome(a){
+        let b = a.split().reverse().join()
+        if (a === b){
+            check = "Correct"
+        }
+        else {
+            check = "Incorrect";
+        }
+        return check
+    }
+
+
+    console.log(isPalindrome(input))
+</script>

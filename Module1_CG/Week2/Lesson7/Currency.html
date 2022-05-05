@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        d {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h4>Amount</h4>
+    <input id="i">
+    <h4>From Currency</h4>
+    <select id="a" style="width: 200px;">
+        <option value="1" selected>VND</option>
+        <option value="23000">USD</option>
+    </select>
+    <h4>To Currency</h4>
+    <select id="b" style="width: 200px;">
+        <option value="1">VND</option>
+        <option value="23000">USD</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="Convert()" style="background: cornflowerblue">Convert</button>
+    <br>
+    <d id="CV"></d>
+</body>
+</html>
+<script>
+    function Convert(){
+        let A = document.getElementById('a').value;
+        let B = document.getElementById('b').value;
+        let I = document.getElementById('i').value;
+        let a = parseInt(A);
+        let b = parseInt(B);
+        let i = parseInt(I);
+        let CVert = i*(a/b);
+        document.getElementById('CV').innerHTML= "Result: " + CVert;
+    }
+</script>

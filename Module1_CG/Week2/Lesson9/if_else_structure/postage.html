@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="a" placeholder="Nhập thời gian tính theo giờ"><br><br>
+<button onclick="checking()">xem</button>
+</body>
+</html>
+
+<script>
+    function checking() {
+        let time = parseInt(document.getElementById("a").value);
+        if (time > 50) {
+            alert("Cước là 200000");
+        } else {
+            if (time > 20) {
+                alert("Cước là 50000");
+            } else {
+                alert("Cước là 10000");
+            }
+        }
+    }
+</script>

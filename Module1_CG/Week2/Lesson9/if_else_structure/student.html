@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input id="a" placeholder="Nhập tuổi"><br><br>
+    <button onclick="checkold()">xem</button>
+</body>
+</html>
+
+<script>
+    function checkold() {
+        let a = parseInt(document.getElementById("a").value);
+        if (a > 16) {
+            alert("Đủ tuổi vào lớp 10")
+        }else {
+            alert("Không đủ tuổi vào lớp 10")
+        }
+    }
+</script>

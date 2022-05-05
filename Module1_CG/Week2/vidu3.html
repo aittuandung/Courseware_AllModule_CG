@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<b>User</b> <input id="a"></input><br><br>
+<b>Poss</b> <input id="b"></input><br><br>
+<b>Email</b> <input id="c"></input><br><br>
+<b>Phone</b> <input id="d"></input><br><br>
+<button onclick="Show()">Submit</button>
+</body>
+</html>
+<script>
+
+    function Show(){
+        let A = document.getElementById('a').value;
+        let B = document.getElementById('b').value;
+        let C = document.getElementById('c').value;
+        let D = document.getElementById('d').value;
+        console.log("User "+A);
+        console.log("Poss " +B);
+        console.log("Email " +C);
+        console.log("Phone " +D);
+    }
+</script>

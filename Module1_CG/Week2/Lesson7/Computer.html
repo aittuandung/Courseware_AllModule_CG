@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h2{
+            font-family: "Times New Roman";
+        }
+        d{
+            color: blue;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Caculator</h2>
+        <input id="a">
+        <input id="b">
+        <br>
+        <br>
+        <button type="button" onclick="addi()">Addition(+)</button>
+        <button type="button" onclick="subtr()">Subtraction(-)</button>
+        <button type="button" onclick="multi()">Multiplication(x)</button>
+        <button type="button" onclick="divi()">Division(/)</button>
+        <br>
+        <br>
+        <d id="x"></d>
+    </form>
+
+</body>
+</html>
+
+<script>
+    function addi(){
+        let a1 = document.getElementById('a').value;
+        let b1 = document.getElementById('b').value;
+        let A = parseInt(a1);
+        let B = parseInt(b1);
+        let sum = A + B;
+        document.getElementById('x').innerHTML = sum;
+    }
+    function subtr(){
+        let a1 = document.getElementById('a').value;
+        let b1 = document.getElementById('b').value;
+        let A = parseInt(a1);
+        let B = parseInt(b1);
+        let sub = A - B;
+        document.getElementById('x').innerHTML = sub;
+    }function multi(){
+        let a1 = document.getElementById('a').value;
+        let b1 = document.getElementById('b').value;
+        let A = parseInt(a1);
+        let B = parseInt(b1);
+        let mul = A * B;
+        document.getElementById('x').innerHTML = mul;
+    }function divi(){
+        let a1 = document.getElementById('a').value;
+        let b1 = document.getElementById('b').value;
+        let A = parseInt(a1);
+        let B = parseInt(b1);
+        let div = A / B;
+        document.getElementById('x').innerHTML = div;
+    }
+</script>

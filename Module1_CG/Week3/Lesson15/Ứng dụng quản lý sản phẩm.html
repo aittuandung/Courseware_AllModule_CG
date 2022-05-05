@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h1 {
+            color: teal;
+        }
+
+        tr:nth-child(even) {
+            background: lightgray;
+        }
+        button{
+            background: teal;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+<div align="center">
+    <h1>Manager Students</h1>
+    <table style="background: lightgray">
+        <tr>
+            <td>Name student:</td>
+            <td><input placeholder="Name " name="abc" id="nameS"></td>
+        </tr>
+        <tr>
+            <td>Old :</td>
+            <td><input placeholder="Old" name="old" id="old"></td>
+        </tr>
+        <tr>
+            <td>Gender :</td>
+            <td><input placeholder="Male or Female" id="gender"></td>
+        </tr>
+        <tr>
+            <td>Phone Number :</td>
+            <td><input placeholder="Number" id="phone"></td>
+        </tr>
+        <tr>
+            <td>Email :</td>
+            <td><input placeholder="Email" id="email"></td>
+        </tr>
+    </table>
+    <br>
+    <button onclick="create()">Add Student</button>
+    <button onclick="saveEdit()">Edit Student</button>
+    <br>
+    <br>
+    <table id="display" style="width: 90%; text-align: center">
+
+    </table>
+</div>
+</body>
+</html>
+<script>
+    class Student {
+        name
+        old
+        gender
+        phone
+        email
+        constructor(name, old, gender,phone,email) {
+            this.name = name;
+            this.old = old;
+            this.gender = gender;
+            this.phone = phone;
+            this.email = email;
+        }
+    }
+
+
+    let Students = [new Student("Name","old","Male", "Phone Number", "Email")]
+
+
+    function create() {
+        let name = document.getElementById('nameS').value;
+        let old = document.getElementById('old').value;
+        let gender = document.getElementById('gender').value;
+        let phone = document.getElementById('phone').value;
+        let email = document.getElementById('email').value;
+        Students.push(new Student(name,old,gender,phone,email));
+        console.log(Students)
+        show();
+    }
+
+    function show() {
+        let str = "";
+        for (let i = 0; i < Students.length; i++) {
+            str += "<tr>"
+            str += `<td>${i}</td>`
+            str += `<td>${Students[i].name}</td>`
+            str += `<td>${Students[i].old}</td>`
+            str += `<td>${Students[i].gender}</td>`
+            str += `<td>${Students[i].phone}</td>`
+            str += `<td>${Students[i].email}</td>`
+            str += `<td><button onclick="showEdit(${i})">Edit</button></td>`
+            str += `<td><button onclick="deleteP(${i})">Delete</button></td>`
+            str += "</tr>"
+        }
+        document.getElementById("display").innerHTML = str;
+    }
+
+    let indexEdit = -1;
+
+    function showEdit(index) {
+        document.getElementById('nameS').value = Students[index].name;
+        document.getElementById('old').value = Students[index].old;
+        document.getElementById('gender').value = Students[index].gender;
+        document.getElementById('phone').value = Students[index].phone;
+        document.getElementById('email').value = Students[index].email;
+        indexEdit = index;
+    }
+
+    function saveEdit() {
+        let name = document.getElementById('nameS').value;
+        let old = document.getElementById('old').value;
+        let gender = document.getElementById('gender').value;
+        let phone = document.getElementById('phone').value;
+        let email = document.getElementById('email').value;
+
+        Students[indexEdit] = new Student(name,old,gender,phone,email);
+        show();
+        indexEdit = -1;
+    }
+
+    function deleteP(index) {
+        Students.splice(index, 1);
+        show();
+    }
+
+    show();
+</script>

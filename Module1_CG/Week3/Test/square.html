@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<input id="x" placeholder="Nhập cạnh a">
+<button onclick="show()">Result: </button>
+<p id="y"></p>
+<p id="z"></p>
+</body>
+</html>
+
+<script>
+  function show(){
+    let a = parseInt(document.getElementById("x").value);
+    document.getElementById("y").innerHTML= ("S là " + (a*a));
+    document.getElementById("z").innerHTML= ("P là " + (a*4));
+  }
+</script>

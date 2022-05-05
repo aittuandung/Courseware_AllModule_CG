@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Convert between Metes and feet</h1>
+    <input id="numb" value="">
+    <button id="toFeet" type="button" onclick="toFeet()">Feet to Meters</button>
+    <button id="toMetes" type="button" onclick="toMetes()">Meters to Feet</button>
+    <p id="out"></p>
+</body>
+</html>
+
+<script>
+
+    function toFeet(){
+        let getNumb = parseFloat(document.getElementById('numb').value);
+        let showNumb;
+        showNumb = 0.305*getNumb;
+        document.getElementById('out').innerHTML = showNumb;
+    }
+    function toMetes(){
+        let getNumb = parseFloat(document.getElementById('numb').value);
+        let showNumb;
+        showNumb = 3.279*getNumb;
+        document.getElementById('out').innerHTML = showNumb;
+    }
+
+</script>

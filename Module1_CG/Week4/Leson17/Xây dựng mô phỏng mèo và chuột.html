@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    class Rat {
+        name
+        weight
+        speed
+        status
+
+        constructor(name, weight, speed, status) {
+            this.name = name;
+            this.weight = weight;
+            this.speed = speed;
+            this.status = status;
+        }
+
+        voiceRat() {
+            alert("Chít chít !!!")
+        }
+    }
+
+    class Cat {
+        name
+        weight
+        speed
+        rat
+
+        constructor(name, weight, speed, rat) {
+            this.name = name;
+            this.weight = weight;
+            this.speed = speed;
+            this.rat = rat;
+        }
+
+        voiceCat() {
+            alert("Chít chít !!!")
+        }
+
+        hunting() {
+            if (this.speed > this.rat.speed) {
+                this.rat.voiceRat()
+            } else {
+                alert("No chance")
+            }
+        }
+
+    }
+</script>
