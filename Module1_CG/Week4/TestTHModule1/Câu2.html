@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let a = 10;
+    let diem = [6,7,8,9,5,10];
+    function tryRemoveFromArray(check, arr){
+        for (let i = 0; i < arr.length; i++) {
+            if (check === arr[i] ){
+                arr.splice(i,1)
+            }
+        }
+        console.log(arr)
+    }
+    tryRemoveFromArray(a,diem)
+</script>
