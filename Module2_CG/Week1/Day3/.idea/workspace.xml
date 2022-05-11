@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d837aaca-062c-4cde-8735-40b812c18be7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day2/Day2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day2/src/InterestRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day2/src/IsPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day2/src/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day2/src/ShowGeometry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day2/src/TwentyPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day2/src/UCLN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Day3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ĐảoMảng.java" afterDir="false" />
+    <list default="true" id="d9ac2726-ae05-4c05-a7da-5752a36c7f54" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
@@ -26,7 +11,7 @@
       <change beforePath="$PROJECT_DIR$/../Day1/src/VNDToUSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day1/src/VNDToUSD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day1/src/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day1/src/demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day2/.idea/Day2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Day2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/Day3.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day2/IsPrime.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day2/out/production/Day2/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day2/out/production/Day2/.idea/Day2.iml" beforeDir="false" />
@@ -34,6 +19,22 @@
       <change beforePath="$PROJECT_DIR$/../Day2/out/production/Day2/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day2/out/production/Day2/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day2/out/production/Day2/IsPrime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/InterestRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/InterestRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/IsPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/IsPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/ShowGeometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/ShowGeometry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/TwentyPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/TwentyPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/UCLN.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/UCLN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Day3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day3/.idea/Day3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day3/ĐảoMảng.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ĐảoMảng.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/Equation1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/NewVariable.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/Operator.class" beforeDir="false" />
@@ -44,39 +45,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2905YKlp6CJbt7PR9z612tniuan" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2906lXxg0aGNNeCQoeiJpMjcmNh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ĐảoMảng" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ĐảoMảng" />
@@ -94,30 +78,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d837aaca-062c-4cde-8735-40b812c18be7" name="Changes" comment="" />
-      <created>1652237213767</created>
+      <changelist id="d9ac2726-ae05-4c05-a7da-5752a36c7f54" name="Changes" comment="" />
+      <created>1652237806655</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652237213767</updated>
-      <workItem from="1652237217344" duration="310000" />
+      <updated>1652237806655</updated>
+      <workItem from="1652237808447" duration="18000" />
+      <workItem from="1652237860430" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
