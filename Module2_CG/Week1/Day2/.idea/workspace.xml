@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7027c7eb-1583-4218-a198-d859b04d9a6b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Day3/src/FindStudent.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Day3/src/GTLN.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Day3/src/GTNN.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Day3/src/InsertValue.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Day3/src/RemoveValue.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Day3/src/Temperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterestRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IsPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowGeometry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TwentyPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UCLN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
@@ -24,11 +19,8 @@
       <change beforePath="$PROJECT_DIR$/../Day1/src/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day1/src/demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Day2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Day3.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IsPrime.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Day2/.idea/.gitignore" beforeDir="false" />
@@ -36,13 +28,13 @@
       <change beforePath="$PROJECT_DIR$/out/production/Day2/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Day2/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Day2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Day2/IsPrime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterestRate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IsPrime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShowGeometry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwentyPrime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UCLN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day2/IsPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day2/IsPrime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterestRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterestRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IsPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IsPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShowGeometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShowGeometry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwentyPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwentyPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UCLN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UCLN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/Equation1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/NewVariable.class" beforeDir="false" />
@@ -57,19 +49,56 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="290L24oSFqe423JMkjk76ctsgEW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/mnt/sda2/JetBrain-CodeGym/CodeGym_AllModule_Courseware/Module2_CG/Week1/Day3"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.TwentyPrime">
+    <configuration name="IsPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IsPrime" />
+      <module name="Day2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prime" />
+      <module name="Day2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwentyPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwentyPrime" />
+      <module name="Day2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TwentyPrime" />
+        <item itemvalue="Application.IsPrime" />
+        <item itemvalue="Application.Prime" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,7 +108,26 @@
       <option name="presentableId" value="Default" />
       <updated>1652244846429</updated>
       <workItem from="1652244848158" duration="1000" />
+      <workItem from="1652245018987" duration="871000" />
+      <workItem from="1652246968953" duration="626000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
