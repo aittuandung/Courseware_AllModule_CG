@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e82abc-c180-466c-8ffa-f15abe3ae3bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CircleCylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Point2D_and_Point3D/Point2D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
@@ -27,8 +25,6 @@
       <change beforePath="$PROJECT_DIR$/../../Week1/DemoTest/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/DemoTest/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Week1/DemoTest/src/ManageEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/DemoTest/src/ManageEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo_employee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_employee/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/Equation1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/NewVariable.class" beforeDir="false" />
@@ -75,7 +71,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Point2D_and_Point3D.Test">
+    <configuration name="Point2D_and_Point3D.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Point2D_and_Point3D.Test" />
+      <module name="Day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Point2D_and_Point3D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="circle_cyndler.Test" />
       <module name="Day1" />
@@ -91,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Point2D_and_Point3D.Test" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -106,7 +116,7 @@
       <workItem from="1652673582640" duration="1688000" />
       <workItem from="1652675370394" duration="3375000" />
       <workItem from="1652696807557" duration="607000" />
-      <workItem from="1652712152267" duration="2398000" />
+      <workItem from="1652712152267" duration="2703000" />
     </task>
     <servers />
   </component>
