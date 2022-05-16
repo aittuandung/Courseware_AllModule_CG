@@ -1,7 +1,7 @@
 public class Circle extends Shape {
     public double radius = 1.0;
 
-    public Circle() {
+    public Circle(double v, String yellow) {
     }
 
     public Circle(double radius) {
