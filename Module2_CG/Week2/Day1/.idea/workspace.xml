@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e82abc-c180-466c-8ffa-f15abe3ae3bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Point2D_and_Point3D/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Point_and_MoveablePoint/Moveablepoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Point_and_MoveablePoint/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Point_and_MoveablePoint/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
@@ -116,7 +118,7 @@
       <workItem from="1652673582640" duration="1688000" />
       <workItem from="1652675370394" duration="3375000" />
       <workItem from="1652696807557" duration="607000" />
-      <workItem from="1652712152267" duration="2703000" />
+      <workItem from="1652712152267" duration="3036000" />
     </task>
     <servers />
   </component>
