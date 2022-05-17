@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79e2232c-2eb1-4757-a3d9-929e0e8b1cd2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comparable/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comparable/ComparableCircle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
@@ -35,6 +27,7 @@
       <change beforePath="$PROJECT_DIR$/../../Week1/DemoTest/src/ManageEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/DemoTest/src/ManageEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo_employee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_employee/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/Equation1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/NewVariable.class" beforeDir="false" />
@@ -68,15 +61,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,7 +80,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652754512063</updated>
-      <workItem from="1652754514027" duration="1637000" />
+      <workItem from="1652754514027" duration="1887000" />
+      <workItem from="1652761567582" duration="1485000" />
+      <workItem from="1652775964550" duration="662000" />
     </task>
     <servers />
   </component>
