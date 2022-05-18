@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79e2232c-2eb1-4757-a3d9-929e0e8b1cd2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/comparator/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparator/CircleComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparator/CircleComparatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparator/CircleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparator/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparator/RectangleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparator/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparator/ShapeTest.java" afterDir="false" />
+    <list default="true" id="210cfa78-7669-4e5c-afc1-8d8919cca232" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Day2/src/comparator/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day2/src/comparator/CircleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day2/src/comparator/CircleComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day2/src/comparator/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day2/src/comparator/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day2/src/comparator/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day2/src/comparator/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day2/src/comparator/ShapeTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ManageEmployee/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ManageEmployee/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ManageEmployee/.idea/vcs.xml" afterDir="false" />
@@ -30,7 +30,24 @@
       <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/QuanLyCanBo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/out/production/QuanLyCanBo/CanBo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/out/production/QuanLyCanBo/CongNhan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/out/production/QuanLyCanBo/KySu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/out/production/QuanLyCanBo/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/out/production/QuanLyCanBo/NhanVien.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/out/production/QuanLyCanBo/QLCB.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/src/CanBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/src/CongNhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/src/KySu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/src/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanLyCanBo/src/QLCB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_employee/out/production/demo_employee/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_employee/out/production/demo_employee/ManageNhanVien.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_employee/out/production/demo_employee/NhanVien.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_employee/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_employee/src/ManageNhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_employee/src/NhanVien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
@@ -54,11 +71,13 @@
       <change beforePath="$PROJECT_DIR$/../../Week1/DemoTest/src/ManageEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/DemoTest/src/ManageEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Comparable/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comparable/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Comparable/ComparableCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comparable/ComparableCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Comparable/ComparableCircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comparable/ComparableCircleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/Comparable/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/comparable/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/Comparable/ComparableCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/comparable/ComparableCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/Comparable/ComparableCircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/comparable/ComparableCircleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo_employee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_employee/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_employee/src/DemoManaEmploy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_employee/src/ManageDemoManaEmploy.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/Equation1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/NewVariable.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/Operator.class" beforeDir="false" />
@@ -69,75 +88,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="29H04PVG821XzzUJednP5NX1rlA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="29KWImZRiA2upZVGItFG3hWR7kA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/mnt/sda2/JetBrain-CodeGym/CodeGym_AllModule_Courseware/Module2_CG/Week2/Day2/src/comparator",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/comparator" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="79e2232c-2eb1-4757-a3d9-929e0e8b1cd2" name="Changes" comment="" />
-      <created>1652754512063</created>
+      <changelist id="210cfa78-7669-4e5c-afc1-8d8919cca232" name="Changes" comment="" />
+      <created>1652862179911</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652754512063</updated>
-      <workItem from="1652754514027" duration="1887000" />
-      <workItem from="1652761567582" duration="1485000" />
-      <workItem from="1652775964550" duration="2709000" />
-      <workItem from="1652842134159" duration="1549000" />
+      <updated>1652862179911</updated>
+      <workItem from="1652862181678" duration="1000" />
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
