@@ -2,37 +2,43 @@ package resizeable;
 
 public class Shape {
     private String color = "green";
-    private boolean filled = true;
+    private boolean filler = true;
+
+    private int x = 1;
 
     public Shape() {
     }
 
-    public Shape(String color, boolean filled) {
+    public Shape(String color, boolean filler) {
         this.color = color;
-        this.filled = filled;
-    }
-
-    public String getColor() {
-        return color;
+        this.filler = filler;
     }
 
     public void setColor(String color) {
         this.color = color;
     }
 
-    public boolean isFilled() {
-        return filled;
+    public void setFiller(boolean filler) {
+        this.filler = filler;
     }
 
-    public void setFilled(boolean filled) {
-        this.filled = filled;
+    public String getColor() {
+        return color;
+    }
+
+    public boolean isFiller() {
+        return filler;
     }
 
     @Override
     public String toString() {
-        return "A Shape with color of "
-                + getColor()
-                + " and "
-                + (isFilled() ? "filled" : "not filled");
+        if (filler) {
+            return "A Shape with color of " + color + "and filled";
+        } else {
+            return "A Shape with color of " + color + "and not filled";
+        }
+    }
+    public void resize(double percent){
+        x *= percent;
     }
 }
