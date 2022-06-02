@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class PhoneNumber {
-    private static final String NUMBER_REGEX = "^[8][4][-][0-9]{10}$";
+    private static final String NUMBER_REGEX = "\\w+@\\w+(\\.\\w){1,2}";
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào số điện thoại");
