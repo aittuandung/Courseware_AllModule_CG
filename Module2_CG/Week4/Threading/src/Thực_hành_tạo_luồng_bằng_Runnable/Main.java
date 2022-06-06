@@ -1,3 +1,5 @@
+package Thực_hành_tạo_luồng_bằng_Runnable;
+
 public class Main {
     public static void main(String args[]) {
         System.out.println("Main thread running... ");

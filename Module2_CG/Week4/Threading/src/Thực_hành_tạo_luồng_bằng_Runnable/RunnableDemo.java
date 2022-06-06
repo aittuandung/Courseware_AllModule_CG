@@ -1,3 +1,5 @@
+package Thực_hành_tạo_luồng_bằng_Runnable;
+
 public class RunnableDemo implements Runnable{
     private Thread t;
     private final String threadName;
