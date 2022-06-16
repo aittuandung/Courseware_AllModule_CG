@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ReaderAndWriteStudent {
-    File file = new File("/Users/johntoan98gmail.com/Desktop/ThiThu/src/data/student.csv");
+    File file = new File("/mnt/sda2/JetBrain-CodeGym/CodeGym_AllModule_Courseware/Module2_CG/Week4/Chua_Bai_Thi_Thu_1/src/data/student.csv");
 
     public void Write(List<Student> students) {
         try {
