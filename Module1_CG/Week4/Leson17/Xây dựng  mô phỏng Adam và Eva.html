@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    class Apple {
+        weight
+        human
+
+        constructor(weight, human) {
+            this.weight = weight;
+            this.human = human;
+        }
+
+        decrease() {
+            this.weight--;
+        }
+
+
+        getWeight() {
+             return this.weight
+        }
+
+        setWeight(s){
+            if (s!= '' && s!=null){
+                this.weight = s;
+            }
+        }
+    }
+
+    class Human {
+        name
+        gender
+        weight
+        food
+
+        constructor(name, gender, weight, apple) {
+            this.name = name;
+            this.gender = gender;
+
+            this.weight = weight;
+
+
+            this.food=apple
+        }
+
+        isMale() {
+            if (this.gender === "Male") {
+                alert("Male")
+            } else {
+                alert("Female")
+            }
+        }
+
+        checkApple() {
+            if (this.food.weight > 0) {
+                return true
+            } else
+                return false
+        }
+
+        eat(m) {
+            if(this.checkApple()){
+                this.weight++;
+                m.decrease()
+            }
+
+        }
+
+        say() {
+            if (this.gender) {
+                alert("Hi! God")
+            } else {
+                alert("Hi! Sir")
+            }
+        }
+        getName() {
+            return  this.name
+        }
+        setName(a) {
+            this.name=a
+
+        }
+        getWeight() {
+           return this.weight
+        }
+        setWeight(w) {
+           if(w!==''&&w!=null){
+               this.weight=w;
+           }
+        }
+    }
+
+    let apple1 = new Apple("5", "Eva")
+    let Adam = new Human("Adam", "Male",60, apple1);
+    console.log(Adam)
+    Adam.checkApple();
+    Adam.setWeight()
+    Adam.setName(Adam)
+    Adam.isMale()
+    apple1.setWeight();
+    Adam.eat(apple1);
+    Adam.say();
+    apple1.getWeight();
+    console.log(Adam.getWeight())
+    console.log(apple1.getWeight())
+</script>

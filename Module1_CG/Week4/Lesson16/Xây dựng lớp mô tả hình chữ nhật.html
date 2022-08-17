@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="rectangle"></canvas>
+
+</body>
+</html>
+
+<script>
+    class Rectangle {
+        sideWth
+        sideLth
+
+        constructor(sideWth, sideLth) {
+            this.sideWth = sideWth;
+            this.sideLth = sideLth;
+        }
+
+        getS() {
+            let S = this.sideLth * this.sideWth;
+            return "Diện tích là " + S
+        }
+
+        getP() {
+            let P =(this.sideWth+this.sideLth)*2;
+            return "Chu vi là " + P
+        }
+
+        creatRectangle(){
+            let ctx = document.getElementById('rectangle').getContext("2d");
+            ctx.fillStyle='red';
+            ctx.fillRect(0,0,this.sideWth,this.sideLth);
+        }
+
+    }
+
+    let rectangle1 = new Rectangle(500,250)
+    console.log(rectangle1);
+    console.log(rectangle1.creatRectangle());
+    console.log(rectangle1.getS(), rectangle1.getP());
+</script>

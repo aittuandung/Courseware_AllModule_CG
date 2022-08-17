@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+</html>
+
+<script>
+    let a = parseFloat(prompt("Nhập số thu nhập trung bình hàng tháng : (Đơn vị triệu đồng)"));
+
+    if (a < 4){
+        alert("Miễn thuế")
+    }else if (a < 6){
+        alert("Thuế là " + 0.05*a);
+    }else if (a < 9){
+        alert("Thuế là " + 0.1*a);
+    }else if (a < 14){
+        alert("Thuế là " + 0.15*a);
+    }else if (a < 24){
+        alert("Thuế là " + 0.2*a);
+    }else if (a < 44){
+        alert("Thuế là " + 0.25*a);
+    }else if (a < 84){
+        alert("Thuế là " + 0.3*a);
+    }else {
+        alert("Thuế là " + 0.35*a);
+    }
+</script>

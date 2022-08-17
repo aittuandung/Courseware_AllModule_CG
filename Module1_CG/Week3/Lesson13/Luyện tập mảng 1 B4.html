@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+  let n = parseInt(prompt("Nhập vào độ dài mảng"));
+  let arr = [];
+
+  for (let i = 0; i < n; i++) {
+      arr[i] = parseInt(prompt("Nhập vào giá trị thứ " + i))
+  }
+  let temp = 0;
+  for (let j = 0; j < arr.length; j++) {
+      for (let k = j+1; k< arr.length ;k++){
+          if (arr[k]>arr[j]){
+              temp = arr[k];
+              arr[k] = arr[j];
+              arr[j] = temp;
+          }
+      }
+      console.log(arr[j]);
+  }
+</script>

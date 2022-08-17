@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let a = 1;
+    let i = 0;
+    let count = 0;
+    while (count < 20) {
+        document.write(i + ',');
+        let P = a;
+        a = i;
+        i = a + P;
+        count++;
+        if (i % 5 == 0) {
+            alert("st1 là : " + i);
+            break;
+        }
+    }
+</script>

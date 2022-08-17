@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="range" name="score" id="score1" value="0" min="0" max="1" onclick="ClickMouse()"> Good <br><br>
+<input type="range" name="score" id="score2" value="0" min="0" max="1" onclick="ClickMouse()"> Cheap <br><br>
+<input type="range" name="score" id="score3" value="0" min="0" max="1" onclick="ClickMouse()"> Fast
+<script>
+    let count = 1;
+
+    function ClickMouse() {
+        let A = parseInt(document.getElementById("score1").value)
+        let B = parseInt(document.getElementById("score2").value)
+        let C = parseInt(document.getElementById("score3").value)
+
+        if (A == B && B == C && C == 1) {
+            if (count == 1){
+                document.getElementById("score1").value = 0
+                count ++;
+            } else
+            if (count == 2){
+                document.getElementById("score2").value = 0
+                count ++;
+            } else
+            if (count == 3){
+                document.getElementById("score3").value = 0
+                count = 1;
+            }
+        }
+        if (A == B && B == C && C == 0) {
+            if (count == 1){
+                document.getElementById("score1").value = 1
+                count ++;
+            } else
+            if (count == 2){
+                document.getElementById("score2").value = 1
+                count ++;
+            } else
+            if (count == 3){
+                document.getElementById("score3").value = 1
+                count = 1;
+            }
+        }
+
+
+    }
+
+</script>
+</body>
+</html>

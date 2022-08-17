@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<input id="x" placeholder="Enter Year">
+<button onclick="show()">Result: </button>
+<p id="y"></p>
+</body>
+</html>
+
+<script>
+  function show(){
+    let a = parseInt(document.getElementById("x").value);
+    if (a%100) {
+      document.getElementById("y").innerHTML = ("Thế kỷ " +parseInt(a/100) );
+    }
+    else {
+      document.getElementById("y").innerHTML = "Thế kỷ " + (parseInt("a/100" + 1)  + 1);
+    }
+  }
+</script>

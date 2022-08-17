@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c9e2f4c-7101-4c34-89f9-49b7370ff9fe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/refactoring/TennisGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/refactoring_tach_bien/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_test/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_test/TennisGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/Day4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2_CG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/Day2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/Day2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/Day2/out/production/Day2/TwentyPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/Day2/out/production/Day2/TwentyPrime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/Day4/out/production/Day4/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/Day4/out/production/Day4/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/Day4/src/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/Day4/src/Fan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/Day4/src/MainFan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/Day4/src/MainFan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/Day4/src/MainQuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/Day4/src/MainQuadraticEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/Day4/src/MainStopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/Day4/src/MainStopWatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/Day4/src/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/Day4/src/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/Day4/src/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/Day4/src/QuadraticEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/Day4/src/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/Day4/src/StopWatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/Day5/src/SetOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/Day5/src/SetOnly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/Day5/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/Day5/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/DemoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/DemoTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/DemoTest/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/DemoTest/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/DemoTest/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/DemoTest/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week1/DemoTest/src/ManageEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week1/DemoTest/src/ManageEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManageEmployee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ManageEmployee/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManageEmployee/src/FullTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ManageEmployee/src/FullTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManageEmployee/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ManageEmployee/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManageEmployee/src/ManageNhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ManageEmployee/src/ManageNhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManageEmployee/src/NhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ManageEmployee/src/NhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManageEmployee/src/PartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ManageEmployee/src/PartTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuanLyCanBo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyCanBo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuanLyCanBo/out/production/QuanLyCanBo/CanBo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyCanBo/out/production/QuanLyCanBo/CanBo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuanLyCanBo/out/production/QuanLyCanBo/QLCB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyCanBo/out/production/QuanLyCanBo/QLCB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuanLyCanBo/src/CanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyCanBo/src/CanBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuanLyCanBo/src/CongNhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyCanBo/src/CongNhan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuanLyCanBo/src/KySu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyCanBo/src/KySu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuanLyCanBo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyCanBo/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuanLyCanBo/src/NhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyCanBo/src/NhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuanLyCanBo/src/QLCB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyCanBo/src/QLCB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comparator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comparator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comparator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comparator/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_employee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_employee/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_employee/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_employee/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_employee/src/ManageNhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_employee/src/ManageNhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_employee/src/NhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_employee/src/NhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/Equation1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/NewVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/Operator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/SystemTime.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29NXBDLcT5qwshhLzQLUQyuogyf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "/mnt/sda2/JetBrain-CodeGym/CodeGym_AllModule_Courseware/Module2_CG/Week2/Day3/src/refactoring"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c9e2f4c-7101-4c34-89f9-49b7370ff9fe" name="Changes" comment="" />
+      <created>1652954379232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652954379232</updated>
+      <workItem from="1652954380779" duration="464000" />
+      <workItem from="1653017625580" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

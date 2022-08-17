@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img {
+            width: 400px;
+            height: 200px;
+            margin-left: 700px;
+        }
+    </style>
+</head>
+<body>
+    <img onclick="change()" id="bird1" src="anhvet1.jpg" >
+    <br>
+    <img onclick="change2()" id="bird2" src="anhvet2.jpg">
+    <br>
+    <img onclick="change3()" id="bird3" src="anhvet3.jpg">
+</body>
+</html>
+
+<script>
+    let count = 1;
+    function change(){
+        if (count == 1) {
+            document.getElementById("bird1").src = "anhmeo1.jpg";
+            count = 2;
+        }else {
+            document.getElementById("bird1").src = "anhvet1.jpg";
+            count = 1;
+        }
+    }
+    function change2(){
+        if (count == 1) {
+            document.getElementById("bird2").src = "anhmeo2.jpg";
+            count = 2;
+        }else {
+            document.getElementById("bird2").src = "anhvet2.jpg";
+            count = 1;
+        }
+    }
+    function change3(){
+        if (count == 1) {
+            document.getElementById("bird3").src = "anhmeo3.jpg";
+            count = 2;
+        }else {
+            document.getElementById("bird3").src = "anhvet3.jpg";
+            count = 1;
+        }
+    }
+
+</script>

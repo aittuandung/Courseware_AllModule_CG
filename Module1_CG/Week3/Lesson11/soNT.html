@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let a = 2;
+    let count = 0;
+    while (count < 20){
+        let check = true;
+
+        for (let i=2; i<=(Math.sqrt(a)); i++) {
+            if (a % i == 0 && a != 2) {
+                check = false;
+                break;
+            }
+        }
+            if (check == true){
+                document.write(a + "<br>");
+                count++;
+        }
+        a++;
+    }
+</script>

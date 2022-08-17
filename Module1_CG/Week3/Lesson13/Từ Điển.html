@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input id="ipt" placeholder="Nhập từ cần tìm">
+    <input type="button" onclick="convert()" value="Convert">
+    <p id="out"></p>
+</body>
+</html>
+
+<script>
+    let EN = ["yes","no","smart","idiot","color", "tomato"];
+    let VN = ["có","không","khôn","đần","màu sắc","cà chua"];
+    let a=document.getElementById("ipt")
+    let b= document.getElementById("out")
+
+    function convert(){
+        if (cotrongtudien(a.value)){
+            b.innerHTML=VN[EN.indexOf(a.value)]
+        }else alert('tu k co trong tu dien')
+
+        //console.log(cotrongtudien(a.value))
+    }
+    function cotrongtudien(n){
+        for (let i = 0; i<EN.length; i++){
+            if (EN[i] == n){
+
+                return true
+            }
+        } return false
+
+    }
+
+</script>

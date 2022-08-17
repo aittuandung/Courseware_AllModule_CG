@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<input id="x" placeholder="Enter a: ">
+<input id="y" placeholder="Enter b: ">
+<button onclick="show()">Result: </button>
+<p id="a"></p>
+<p id="b"></p>
+</body>
+</html>
+
+<script>
+  function show(){
+    let a = parseInt(document.getElementById("x").value);
+    let b = parseInt(document.getElementById("y").value);
+    document.getElementById("a").innerHTML= ("a^2 là " + (a*a));
+    document.getElementById("b").innerHTML= ("b^2là " + (b*b));
+  }
+</script>

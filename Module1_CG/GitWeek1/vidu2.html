@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<b>Nhập số 1</b>
+<input id="a" >
+<br>
+<br>
+<b>Nhập số 2</b>
+<input id="b" >
+<br>
+<br>
+<button onclick="Sum()">
+    Show
+</button>
+</body>
+</html>
+<script>
+    function Sum(){
+        let a = Number(document.getElementById("a").value);
+        let b = Number(document.getElementById("b").value);
+        alert(a + b );
+    }
+</script>

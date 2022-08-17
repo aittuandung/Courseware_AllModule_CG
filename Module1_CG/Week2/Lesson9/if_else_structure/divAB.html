@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input id="a" placeholder="Nhập a "><br><br>
+    <input id="b" placeholder="Nhập b"><br><br>
+    <button onclick="div()">a/b</button>
+</body>
+</html>
+
+<script>
+
+    function div() {
+        let a = parseInt(document.getElementById("a").value);
+        let b = parseInt(document.getElementById("b").value);
+        if ((a % b) == 0) {
+            alert("a chia hết cho b")
+        }else {
+            alert("a không chia hết cho b")
+        }
+    }
+</script>

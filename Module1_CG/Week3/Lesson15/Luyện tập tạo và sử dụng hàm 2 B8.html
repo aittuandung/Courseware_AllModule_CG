@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let input = []
+    let n = parseInt(prompt("Nhập vào số lượng phần tử:"));
+    for (let i = 0; i < n; i++) {
+        input[i] = parseInt(prompt("Nhập vào số:" + i));
+    }
+
+    function doiCho(a){
+        return a.reverse();
+    }
+    console.log(doiCho(input));
+</script>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let Min ;
+    let input2 = parseInt(prompt("Nhập số:"))
+    let input3 = parseInt(prompt("Nhập số:"))
+    let input1 = parseInt(prompt("Nhập số:"))
+
+    function checkMin(a,b,c){
+        if (a>b){
+            if (b>c){
+                Min = a;
+            }
+        }
+        else {
+            if (b>c){
+                Min = b;
+            }
+            else {
+                Min = c;
+            }
+        }
+        return Min;
+    }
+    console.log(checkMin(input1,input2,input3));
+</script>

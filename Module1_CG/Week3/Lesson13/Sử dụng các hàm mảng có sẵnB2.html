@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let input = prompt("Nhập vào 1 số");
+    let even = input.toString();
+    let arrs = [even[0]];
+    for (let i = 0; i < even.length; i++) {
+        if ((even[i-1] % 2 ===0) && (even[i] % 2 === 0)){
+            arrs.push("-" , even[i]);
+        }
+        else {
+            arrs.push(even[i]);
+        }
+    }
+    console.log(arrs.join(""));
+
+</script>

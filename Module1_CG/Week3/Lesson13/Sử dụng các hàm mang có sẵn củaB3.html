@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let input = prompt("Nhập vào chuỗi");
+    let str = [];
+    for (let i = 0; i < input.length; i++) {
+        let char = input[i];
+        if (char == char.toLowerCase()){
+            char = input[i].toUpperCase()
+            str.push(char)
+        }
+        else {
+            if (char == char.toUpperCase()){
+                char = input[i].toLowerCase()
+                str.push(char)
+            }
+
+        else {
+            str.push(char)
+        }
+    }}
+    alert(str.join(''))
+</script>

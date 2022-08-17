@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9ac2726-ae05-4c05-a7da-5752a36c7f54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Day2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CountCharacterInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CountStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Diagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GTLN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GTNN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InsertValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaxIn2DimationalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MergerArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MinIn2DimationalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RemoveValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumCol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Temperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2_CG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day1/src/NumbToChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day1/src/NumbToChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day1/src/VNDToUSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day1/src/VNDToUSD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day1/src/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day1/src/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/.idea/Day2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/Day3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/IsPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/out/production/Day2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/out/production/Day2/.idea/Day2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/out/production/Day2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/out/production/Day2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/out/production/Day2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/out/production/Day2/IsPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/out/production/Day2/IsPrime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/InterestRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/InterestRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/IsPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/IsPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/ShowGeometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/ShowGeometry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/TwentyPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/TwentyPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/src/UCLN.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/src/UCLN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/Equation1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/NewVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/Operator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Module2_CG/SystemTime.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2906lXxg0aGNNeCQoeiJpMjcmNh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/mnt/sda2/JetBrain-CodeGym/CodeGym_AllModule_Courseware/Module2_CG/Week1/Day3",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Diagonal">
+    <configuration name="CountStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountStudent" />
+      <module name="Day3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Diagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Diagonal" />
+      <module name="Day3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxIn2DimationalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxIn2DimationalArray" />
+      <module name="Day3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinIn2DimationalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinIn2DimationalArray" />
+      <module name="Day3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumCol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumCol" />
+      <module name="Day3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Diagonal" />
+        <item itemvalue="Application.SumCol" />
+        <item itemvalue="Application.CountStudent" />
+        <item itemvalue="Application.MinIn2DimationalArray" />
+        <item itemvalue="Application.MaxIn2DimationalArray" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9ac2726-ae05-4c05-a7da-5752a36c7f54" name="Changes" comment="" />
+      <created>1652237806655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652237806655</updated>
+      <workItem from="1652237808447" duration="18000" />
+      <workItem from="1652237860430" duration="17000" />
+      <workItem from="1652237892397" duration="6412000" />
+      <workItem from="1652244443130" duration="275000" />
+      <workItem from="1652244769716" duration="10000" />
+      <workItem from="1652246997475" duration="4827000" />
+      <workItem from="1652252576345" duration="8801000" />
+      <workItem from="1652330598769" duration="96000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

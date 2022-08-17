@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- Cho phương trình bậc 2 như sau
+a * x2 + b * x + c = 0
+với a, b, c : được nhập thông qua hàm promt() trong javascript
+Ví du: a = prompt('Nhập giá trị của a') => hiển thị 1 form cho bạn nhập => giá trị nhập sẽ được gán vào a
+tương tự làm với b, c
+=> In kết quả của x -->
+
+<script>
+    var a = prompt("Nhập số a:")
+    var b = prompt("Nhập số b:")
+    var c = prompt("Nhập số c:")
+    var delta = b*b - 4*a*c
+
+    if (isNaN(a) || isNaN(b) || isNaN(c)){
+        alert("Hãy nhập vào số!")
+    }
+    else if (delta < 0){
+        alert("Phương trình vô nghiệm!")
+    }
+    else if (delta == 0){
+        x = -b/(2*a)
+        alert("Phương trình có nghiệm kép là x1 = " + "x2 = " + x)
+    }
+    else if (delta > 0){
+        x1 = (-b + Math.sqrt(delta))/(2*a)
+        x2 = (-b - Math.sqrt(delta))/(2*a)
+        alert("Phương trình có hai nghiệm phân biệt là x1 = " + x1 + " và x2 = " + x2)
+    }
+</script>
+</body>
+</html>

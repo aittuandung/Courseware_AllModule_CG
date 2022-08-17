@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    class Mobile{
+        power
+        typingMsg
+        getMsg
+        sentMsg
+        constructor(power,tyingMsg,getMsg, sentMsg) {
+            this.power = power;
+            this.typingMsg = tyingMsg;
+            this.getMsg = getMsg;
+            this.sentMsg = sentMsg;
+        }
+
+        checkStatus(){
+            this.power = true ;
+            return this.power;
+        }
+        turnStatus(){
+            if (this.checkStatus()){
+                this.power -1 ;
+            }
+            return this.turnStatus;
+        }
+
+        charging(){
+            this.power +1 ;
+            return this.power;
+        }
+
+        textingMsg(){
+            this.power - 1 ;
+            this.typingMsg;
+        }
+
+        receiveMsg(){
+            this.power - 1 ;
+            this.getMsg;
+        }
+
+        sending(){
+            this.power - 1 ;
+            this.typingMsg;
+        }
+
+        checkMSg(){
+            this.power - 1;
+            this.getMsg = true;
+        }
+
+        sent(){
+            this.sent - 1;
+            this.power - 1 ;
+        }
+    }
+
+    let m1 = new Mobile("78", "heloo", "saw", "hi");
+
+    console.log(m1 ,m1.sent(),m1.turnStatus(),m1.checkStatus(),m1.charging(),m1.checkMSg(),m1.receiveMsg(),m1.sending(),m1.textingMsg());
+</script>

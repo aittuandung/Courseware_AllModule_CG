@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let arr1 = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', "Altar", 'Dubhe', 'Regulus']
+    let arr2 = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo']
+
+    let input = prompt("Nhập 1 chuỗi");
+    function check(a) {
+        for (let i = 0; i < arr2.length; i++) {
+            if (a.toLowerCase() === arr1[i].toLocaleLowerCase()){
+                alert(arr2[i])
+            }
+        }
+    }
+
+    console.log(check(input))
+</script>

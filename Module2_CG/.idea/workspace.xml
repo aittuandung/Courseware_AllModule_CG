@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bd68ed4-b561-4a77-8c00-2bea5b9adca3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2_CG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/Day1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/Day1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/Day1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/Day1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/Day1/out/production/system-time/NewVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/Day1/out/production/system-time/SystemTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/Day1/src/NewVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/Day1/src/Operator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/Day1/src/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/system-time/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2_CG/NewVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2_CG/Operator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2_CG/SystemTime.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="28uzysESH59UBOaJg6sLb03zBmq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bd68ed4-b561-4a77-8c00-2bea5b9adca3" name="Changes" comment="" />
+      <created>1652081520081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652081520081</updated>
+      <workItem from="1652081523238" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

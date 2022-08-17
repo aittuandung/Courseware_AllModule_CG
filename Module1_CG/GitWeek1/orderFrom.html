@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        select{
+            width: 100;
+        }
+        b{
+            color: red;
+        }
+        p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <form action="buying.com" method="post" style="background: antiquewhite;border-collapse: collapse; width: 500px;">
+      <h2>Order Form</h2>
+      <p style="color: brown">What would you like to buy</p>
+      <select>
+          <option value="Mercedes">Mercedes</option>
+          <option value="Testla">Testla</option>
+          <option value="Mazda">Mazda</option>
+          <option value="Toyota">Toyota</option>
+          <option value="Vinfast">Vinfast</option>
+      </select>
+        <p>How many would you like to order</p>
+        <input type="radio">1 - $10</input> <br>
+        <input type="radio">2 - $20</input> <br>
+        <input type="radio">3 - $25</input> <br>
+        <p>Name</p>
+        <input type="text" name="FirstName" placeholder="FirstName"></input>
+        <input type="text" name="LastName" placeholder="LastName"></input>
+        <p>Email<b>*</b></p>
+        <input type="text"></input>
+        <br>
+        <p>Phone Number</p>
+        <input type="number" style="width: 80px;">-</input>
+        <input type="number" style="width: 80px;">-</input>
+        <input type="number" style="width: 80px;"></input>
+        <br>
+        <br>
+        <input type="button" name="Submit" value="Submit"></input>
+    </form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+  let diem = [6,7,8,9,5,6.5,10];
+  function findMax(arr){
+      let max = arr[0]
+      for (let i = 0; i < arr.length; i++) {
+          if (max<=arr[i]){
+              max = arr[i];
+          }
+      }
+      return max;
+  }
+
+  console.log(findMax(diem))
+</script>

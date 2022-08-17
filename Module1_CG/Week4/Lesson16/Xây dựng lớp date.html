@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    class Date {
+
+        constructor(day, month, year) {
+            this.day = day;
+            this.month = month;
+            this.year = year;
+        }
+
+        get day() {
+            return this._day;
+        }
+
+        set day(value) {
+            this._day = value;
+        }
+
+        get month() {
+            return this._month;
+        }
+
+        set month(value) {
+            this._month = value;
+        }
+
+        get year() {
+            return this._year;
+        }
+
+        set year(value) {
+            this._year = value;
+        }
+    }
+
+    let dates = new Date(6, 8, 2022);
+    let date2 = new Date(5, 7, 2022);
+    console.log(dates);
+    console.log(date2);
+</script>

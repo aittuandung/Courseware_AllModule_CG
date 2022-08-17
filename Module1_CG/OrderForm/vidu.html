@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <p>Nhập tên</p>
+    <input id="a" ></input>
+    <br>
+    <br>
+    <button onclick="showname()" id="b">Submit</button>
+</div>
+</body>
+</html>
+<script>
+    let a = document.getElementById('a');
+    let b = document.getElementById('b');
+    function showname() {
+        alert("Xin chào " + a.value );
+    }
+        document.getElementById("b").onmouseover = function() {mouseOver()};
+        document.getElementById("b").onmouseout = function() {mouseOut()};
+
+        function mouseOver() {
+        document.getElementById("b").style.background = "red";
+        document.getElementById("b").style.color = "yellow";
+    }
+
+        function mouseOut() {
+        document.getElementById("b").style.color = "black";
+    }
+</script>

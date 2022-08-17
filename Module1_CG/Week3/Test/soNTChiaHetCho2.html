@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    a = parseInt(prompt("Nhập vào số a : "));
+    i = 2;
+    if (a!=2) {
+        if (a % 2 == 0) {
+            for (i = 2; i <= (a / 2); i++) {
+                if (a % i == 0) {
+                    alert("a chia hết cho 2 thì sao là số NT nữa hả đô ngốc ahihi");
+                }
+                i++
+            }
+        }
+        else {
+            alert("ko chia hết cho 2 nhé");
+        }
+    }
+    else {alert("a là 2 thì vừa %2==0 vừa là số NT đấy nhóc ")}
+</script>

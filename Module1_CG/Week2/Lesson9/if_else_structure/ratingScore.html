@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="a" placeholder="Điểm kiểm tra "><br><br>
+<input id="b" placeholder="Điểm giữa kì"><br><br>
+<input id="c" placeholder="Điểm cuối kì"><br><br>
+<button onclick="rating()">xem</button>
+</body>
+</html>
+
+<script>
+    function rating(){
+        let avg = (parseInt(document.getElementById("a").value)+parseInt(document.getElementById("c").value)+parseInt(document.getElementById("b").value))/3
+        if (avg >8.5){
+            alert("Học sinh giỏi");
+        }else {
+            if (avg > 7.5){
+                alert("Học sinh khá");
+            }else {
+                alert("Dốt thế học làm gì");
+            }
+        }
+    }
+</script>

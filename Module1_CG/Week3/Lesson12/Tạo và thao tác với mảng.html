@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 > Sample Screen</h1>
+    <br>
+    <input id="inputValue">
+    <button onclick="addElement()">Add</button>
+    <button onclick="showDisplay()">Display</button>
+    <d id="result"></d>
+    <hr>
+</body>
+</html>
+
+<script>
+    let x = 0;
+    let array = Array();
+    function addElement(){
+        array[x] = document.getElementById("inputValue").value;
+        alert("Add " + x + " is " + array[x]);
+        x++;
+    }
+    function showDisplay(){
+        let e = "<hr/>";
+        for (let i = 0; i < array.length; i++) {
+            e += "Element " + i + " = " + array[i] + "<br/>";
+        }
+        document.getElementById("result").innerHTML = e;
+    }
+</script>

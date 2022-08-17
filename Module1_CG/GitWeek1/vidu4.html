@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Nhập số</p><br>
+<input id="a">
+<p>Hệ số</p><br>
+<select id="b" style="width: 200px;">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+</select>
+<button onclick="Show()">
+    Show
+</button>
+</body>
+</html>
+<script>
+    function Show() {
+        let A = Number(document.getElementById('a').value);
+        let B = Number(document.getElementById('b').value);
+        let C = A * B;
+        alert(C);
+    }
+</script>

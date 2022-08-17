@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let input = []
+    let n = parseInt(prompt("Nhập số ký tự:"));
+    for (let i = 0; i < n; i++) {
+        input[i] = prompt("Nhập vào ký tự " + i);
+    }
+
+    let c = prompt("Nhập ký tự cần kiểm tra:");
+    let count =0;
+
+    
+    function check(a){
+            let ch = input.indexOf(c);
+            for (let i = 0; i < n; i++) {
+                if (ch != -1){
+                count ++
+            }
+            }
+        return count;
+    }
+    console.log(check(c));
+</script>

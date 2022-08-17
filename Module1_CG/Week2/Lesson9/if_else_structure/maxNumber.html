@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<input id="a" placeholder="Nhập a "><br><br>
+<button onclick="div()">a/b</button>
+</body>
+</html>
+
+<script>
+
+    function div() {
+        let a = parseInt(document.getElementById("a").value);
+        if (a>0) {
+            alert("a>0")
+        }else {
+            alert("a<0>")
+        }
+    }
+</script>

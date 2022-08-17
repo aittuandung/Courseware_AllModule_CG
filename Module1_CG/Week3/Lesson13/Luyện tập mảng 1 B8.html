@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    alert("Nhập vào 10 phần tử")
+
+    let arr = new Array(10);
+
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt("Nhập vào phần tử thứ " + i))
+    }
+
+    arr.sort(function (a, b) {
+        return  b - a
+    })
+    console.log(arr)
+</script>
