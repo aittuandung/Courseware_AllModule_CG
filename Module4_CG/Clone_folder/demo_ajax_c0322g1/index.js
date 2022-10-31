@@ -46,7 +46,7 @@ function dlt(id){
         url: "http://localhost:8080/blogs/" + id,
         //xử lý khi thành công
         success: function (data) {
-            location.href = "index.html";
+            show(data.content);
         },
         error: function (err) {
             console.log(err)
